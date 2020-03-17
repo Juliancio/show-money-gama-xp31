@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap');* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.hero {
+    background-image: url('./banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 50vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 36pt;
+    font-weight: 400;
+}
+
+.hero p {
+    font-size: 20pt;
+}
+
+.brand {
+    font-weight: 500;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    flex-wrap: wrap;
+    margin: 25px;
+    margin-left: 100px;
+    text-align: left;
+    flex: 1 1 20rem;
+    justify-content: center;
+}
+.video {
+    height: 350px;
+    background-color: grey;
+    display: flex;
+    flex: 1 1 20rem;
+    flex-wrap: wrap;
+    margin-right: 85px;
+}
+
+.text-transfor {
+    color: #ffdd36;
+    font-weight: 700;
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    
+}
