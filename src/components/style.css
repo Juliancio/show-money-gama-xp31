@@ -57,5 +57,25 @@
 
 /* mobile */
 @media only screen and (max-width: 600px) {
-    
+    .description {
+        margin-left: 0px;
+        max-width: 300px;
+        margin: 0 auto
+    }
+
+    .description h1 {
+        font-size: 30pt;
+        margin-bottom: 25px;
+    }
+
+    .description p {
+        font-size: 15pt;
+    }
+    .hero {
+        background-position: left;
+    }
+
+    .video {
+        display: none;
+    }
 }
