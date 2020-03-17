@@ -23,7 +23,7 @@ function Banner() {
         <div className="hero">
             <div className="description">
                 <h1>Comece agora a <span className="text-transfor">transformação digital</span> da sua empresa</h1>
-                <p>A <span className="brand">Pensandoo Digital</span> veio para ajudar você a conseguir mais clientes e mais
+                <p>A <span className="brand">Pensando Digital</span> veio para ajudar você a conseguir mais clientes e mais
                 sucesso dentro do mercado digital.
                 Confira o que podemos te oferecer.
             </p>

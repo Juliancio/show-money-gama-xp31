@@ -5,6 +5,23 @@
     font-family: 'Rubik', sans-serif;
 }
 
+
+/*  nav definições         */
+
+.logo {
+
+display: flex;
+left: 0;
+margin-left: 4em;
+
+}
+
+
+
+/*  banner definições         */
+
+
+
 .hero {
     background-image: url('./banner.jpg');
     background-size: cover;
@@ -84,6 +101,15 @@
 
 width: 33%;
 text-align: center;
+margin-bottom: 4em;
+}
+
+.col-md-2 {
+    width: 20%;
+}
+
+.col-md-8 {
+    width: 80%;
 }
 
 .container {
@@ -107,6 +133,20 @@ margin-top: 20px;
 
     }
 
+    .col-md-2 {
+        width: 100%;
+    }
+    
+    .col-md-8 {
+        width: 100%;
+    }
+
+    .mulher-img {
+
+        max-width: 90%;
+        margin-top: 2em;
+    }
+
     .col-md-4 {
 
         width: 100%;
@@ -118,5 +158,26 @@ margin-top: 20px;
 /* mobile */
 @media only screen and (max-width: 600px) {
     
+    .description {
+        margin-left: 0px;
+        max-width: 300px;
+        margin: 0 auto
+    }
+
+    .description h1 {
+        font-size: 30pt;
+        margin-bottom: 25px;
+    }
+
+    .description p {
+        font-size: 15pt;
+    }
+    .hero {
+        background-position: left;
+    }
+
+    .video {
+        display: none;
+    }
 }
 
