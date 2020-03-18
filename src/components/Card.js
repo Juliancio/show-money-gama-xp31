@@ -44,14 +44,14 @@ function Card() {
             </div>
 
         <div className="col-md-8">
-            <h1 className="h1"> Mercado Digital e seus desafios</h1>
-            <p> O mercado digital é muito amplo... </p>
+            <h1 className="h1"> Marketing Digital </h1>
+            <p> Aprenda estratégias matadoras para atrair clientes em canais digitais </p>
 
-        <h1 className="h1"> Marketing Digital apoiando seu negócio</h1>
-            <p> Utilize das técnicas mais recentes de Marketing Digital para melhorar suas vendas   </p>
+        <h1 className="h1"> Vendas automatizadas</h1>
+            <p>Sabia que 80% das vendas são fechadas após o quarto contato? Crie estratégias automatizadas e fique em contato com seus potenciais clientes!  </p>
 
-        <h1 className="h1"> Experiência do usuário na era Digital</h1>
-            <p>  Você sabia que a Experiência do usuário é o fator principal para conversão de vendas?  </p>
+        <h1 className="h1"> Melhor site para o seu negócio</h1>
+            <p>  O site é a sua vitrine virtual para o mundo! Crie experiências positivas, cause uma boa primeira impressão e aumente a conversão da sua página </p>
 
         </div>
 

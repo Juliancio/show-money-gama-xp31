@@ -3,6 +3,7 @@ import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
 import { Player } from 'video-react';
 
+import './video-react.css';
 
 import './style.css';
 
@@ -34,15 +35,9 @@ function Banner() {
                 </div>
             </div>
             <div className="video">
-            <link
-  rel="stylesheet"
-  href="https://video-react.github.io/assets/video-react.css"
-/>
-            <Player
-      playsInline
-      poster="/assets/poster.png"
-      src="./assets/cardb.mp4"
-    />
+            <Player>
+      <source src="https://automaho.000webhostapp.com/cardb.mp4" />
+    </Player>
 
             </div>
         </div>
