@@ -121,6 +121,15 @@ margin-top: 20px;
 
 }
 
+.footer {
+    background-color: #101d61;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: -4px;
+
+}
+
 .card-p {
     
     justify-content: center;

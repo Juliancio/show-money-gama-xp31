@@ -13,7 +13,6 @@ function Card() {
 
         <div>
             <h1 className="h1">Vantagens Pensando Digital</h1>
-            <h2 className="h2">Aprenda mais sobre o mercado digital rapidamente!</h2>    
 
 <div className="row">
     <div className="container">
@@ -45,14 +44,14 @@ function Card() {
             </div>
 
         <div className="col-md-8">
-            <h1 className="h1"> Marketing Digital</h1>
-            <p> Texto aqui       </p>
+            <h1 className="h1"> Mercado Digital e seus desafios</h1>
+            <p> O mercado digital é muito amplo... </p>
 
-        <h1 className="h1"> Marketing Digital</h1>
-            <p> Texto aqui    </p>
+        <h1 className="h1"> Marketing Digital apoiando seu negócio</h1>
+            <p> Utilize das técnicas mais recentes de Marketing Digital para melhorar suas vendas   </p>
 
-        <h1 className="h1"> Marketing Digital</h1>
-            <p> Texto aqui    </p>
+        <h1 className="h1"> Experiência do usuário na era Digital</h1>
+            <p>  Você sabia que a Experiência do usuário é o fator principal para conversão de vendas?  </p>
 
         </div>
 
