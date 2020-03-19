@@ -35,10 +35,9 @@ function Banner() {
                 </div>
             </div>
             <div className="video">
-            <Player>
-      <source src="https://automaho.000webhostapp.com/cardb.mp4" />
-    </Player>
-
+                {/* <Player>
+                    <source src="https://automaho.000webhostapp.com/cardb.mp4" />
+                </Player> */}
             </div>
         </div>
     )
