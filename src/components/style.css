@@ -35,11 +35,11 @@
 /*banner definições */
 
 .hero {
-    background-image: url('./banner.jpg');
+    background-image: url('./assets//fundo.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 50vh;
+    max-height: 50vh;
     color: white;
     display: flex;
     align-items: center;
@@ -56,6 +56,11 @@
 
 .brand {
     font-weight: 500;
+}
+
+.mulher-sorrindo {
+
+    margin-bottom: -350px;
 }
 
 .description {
