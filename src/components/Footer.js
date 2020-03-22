@@ -1,23 +1,19 @@
 import React from 'react';
-import { ReactComponent as Instagram } from './assets/instagram.svg';
-import { ReactComponent as Facebook } from './assets/facebook.svg';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import FacebookIcon from '@material-ui/icons/Facebook';
+
+
+
+
 
 import './style.css';
 
-
 function Footer() {
     return (
-
         <div className="footer">
-<small> Todos os direitos reservados - Coroners 2020 </small>
-
-<a href="#"> <Facebook /> </a>
-<a href="#"> <Instagram /> </a>
-
+            <InstagramIcon style={{ marginRight: 15 }} />
+            <FacebookIcon />
         </div>
-
-     
-
     )
 }
 

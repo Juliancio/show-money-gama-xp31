@@ -6,8 +6,6 @@
     font-family: 'Rubik', sans-serif;
 }
 
-/* nav definições */
-
 .logo {
     display: flex;
     flex: 1 1 5rem;
@@ -21,9 +19,17 @@
     background-color: #FFDD36;
     color: fff;
     width: 180px;
-}
-.btn-contrate button{
+    color: #101D62;
     align-items: center;
+}
+
+.btn-banner button {
+    background-color: #FFDD36;
+    color: fff;
+    width: 230px;
+    color: #101D62;
+    height: 40px;
+    margin-top: 45px;
 }
 
 .nav {
@@ -32,35 +38,88 @@
     margin: 5px 40px 5px 40px;
 }
 
-/*banner definições */
-
 .hero {
-    background-image: url('./assets//fundo.png');
+    background-image: url('./assets/fundo.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-height: 50vh;
+    height: 70vh;
     color: white;
     display: flex;
     align-items: center;
 }
 
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.card {
+    background-color: #101D62;
+    width: 500px;
+    height: 250px;
+    padding: 1.5rem;
+    color: white;
+    border-radius: 12px;
+    margin-bottom: 35px;
+}
+.card h3 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43px;
+}
+
+.card p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 10px 0 10px 0;
+}
+
 .hero h1 {
-    font-size: 36pt;
+    font-size: 30pt;
     font-weight: 400;
 }
 
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.message {
+    width: 410px;
+    height: 200px;
+    text-align: left;
+    margin-top: 55px;
+}
+
+.message span {
+    font-weight: bold;
+}
+
+.message h1 {
+    color: #101d61;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.message p {
+    font-size: 19px;
+    margin-top: 20px;
+}
+
 .hero p {
-    font-size: 20pt;
+    font-size: 15pt;
 }
 
 .brand {
     font-weight: 500;
-}
-
-.mulher-sorrindo {
-
-    margin-bottom: -350px;
 }
 
 .description {
@@ -76,6 +135,19 @@
     justify-content: center;
 }
 
+.description h1 {
+    font-size: 40px;
+}
+
+.description p {
+    font-size: 20px;
+}
+
+.banner-img {
+    width: 450px;
+    margin-top: 250px;
+}
+
 .video {
     height: 350px;
     background-color: grey;
@@ -87,102 +159,191 @@
 
 .text-transfor {
     color: #ffdd36;
-    font-weight: 700;
-}
-
-/*  card definições         */
-
-.h1 {
-    color: #101d61;
-    margin-top: 1em;
-    margin-bottom: 0.7em;
-}
-
-.h2 {
-    color: #000000;
-    margin-top: 1em;
-    margin-bottom: 0.7em;
-    font-size: 1em;
-}
-
-.card-img {
-    margin-top: 4em;
-}
-
-.col-md-4 {
-    width: 33%;
-    text-align: center;
-    margin-bottom: 4em;
-}
-
-.col-md-2 {
-    width: 20%;
-}
-
-.col-md-8 {
-    width: 80%;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 .footer {
     background-color: #101d61;
     color: white;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    margin-top: -4px;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 30px;
 }
 
 .card-p {
     justify-content: center;
 }
 
-@media (max-width:1100px) {
-    .container {
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-    .col-md-2 {
-        width: 100%;
-    }
-    .col-md-8 {
-        width: 100%;
-    }
-    .mulher-img {
-        max-width: 90%;
-        margin-top: 2em;
-    }
-    .col-md-4 {
-        width: 100%;
-        text-align: center;
-    }
+.main {
+    background: #FFDD36;
+    width: 100%;
+    height: 220px;
+    margin-bottom: 250px;
+    color: #101D62;
+    text-align: center;
 }
 
+.main h3 {
+    font-size: 35px;
+    padding: 25px;
+}
+
+.benefits {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.benefit {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+}
+
+.description-item {
+    margin-top: 25px;
+    text-align: center;
+    color: #101D62;
+    width: 170px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.item {
+    background: #C4C4C4;
+    border-radius: 100px;
+    width: 180px;
+    height: 180px;
+}
+
+.price {
+    width: 380px;
+    height: 420px;
+    background: #101D62;
+    border-radius: 7px;
+    color: #FFDD36;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price h3 {
+    font-size: 28px;
+    padding: 18px;
+}
+
+.value {
+    background: #FFFFFF;
+    border-radius: 7px;
+    height: 60px;
+    color: #101D62;
+    width: 250px;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 57px;
+    text-align: center;
+}
+
+.price p {
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+.time {
+    width: 80px;
+    height: 80px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    color: #101D62;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.time span {
+    font-size: 38px;
+}
+
+.price span {
+    font-weight: bold;
+}
+
+.offer-time {
+    display: flex;
+}
+.price button {
+    margin-top: 45px;
+    width: 220px;
+    height: 45px;
+}
+.main-offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+.quiz {
+    width: 320px;
+    margin: 35px;
+    font-size: 18px;
+    color: #101D62;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quiz p {
+    padding: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /* mobile */
 
 @media only screen and (max-width: 600px) {
-    .description {
-        margin-left: 0px;
-        max-width: 300px;
-        margin: 0 auto
+    .nav button {
+        display: none;
+    }
+    .logo img{
+        width: 130px;
+    }
+    .benefits {
+        display: block;
+    }
+    .message {
+        width: 300px;
+    }
+    .banner {
+        
+        margin-right: 350px;
+    }
+    .banner-img {
+        width: 100px;
+    }
+    .nav {
+        margin: 5px
     }
     .description h1 {
-        font-size: 30pt;
+        font-size: 20pt;
         margin-bottom: 25px;
     }
     .description p {
-        font-size: 15pt;
+        font-size: 12pt;
     }
     .hero {
         background-position: left;
-    }
-    .video {
-        display: none;
     }
 }
