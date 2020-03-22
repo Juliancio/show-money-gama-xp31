@@ -65,6 +65,7 @@
     border-radius: 12px;
     margin-bottom: 35px;
 }
+
 .card h3 {
     font-size: 30px;
     font-style: normal;
@@ -270,6 +271,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .time span {
     font-size: 38px;
 }
@@ -281,11 +283,13 @@
 .offer-time {
     display: flex;
 }
+
 .price button {
     margin-top: 45px;
     width: 220px;
     height: 45px;
 }
+
 .main-offer {
     display: flex;
     justify-content: center;
@@ -293,6 +297,7 @@
     margin-top: 300px;
     margin-bottom: 100px;
 }
+
 .quiz {
     width: 320px;
     margin: 35px;
@@ -302,32 +307,59 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .quiz p {
     padding: 10px;
 }
+
 form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 /* mobile */
 
 @media only screen and (max-width: 600px) {
     .nav button {
         display: none;
     }
-    .logo img{
+    .logo img {
         width: 130px;
     }
+    .main h3 {
+        font-size: 17pt;
+    }
     .benefits {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: space-between;
+    }
+    .cards {
+        margin-top: 40px;
+    }
+    .card {
+        height: auto;
+    }
+    .benefit {
+        width: 190px;
+        margin: 15px;
+    }
+    .description-item {
+        font-size: 12pt;
+    }
+    .price {
+        width: 100%;
+    }
+    .main-offer {
         display: block;
     }
     .message {
         width: 300px;
     }
     .banner {
-        
         margin-right: 350px;
     }
     .banner-img {
