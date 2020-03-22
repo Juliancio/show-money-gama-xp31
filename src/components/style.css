@@ -208,7 +208,7 @@
     width: 350px;
 }
 
-.description-item {
+/* .description-item {
     margin-top: 25px;
     text-align: center;
     color: #101D62;
@@ -216,10 +216,15 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
-}
+} */
 
 .item {
-    background: #C4C4C4;
+    background: #101D62;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 25px;
+    text-align: center;
     border-radius: 100px;
     width: 200px;
     height: 200px;
@@ -348,9 +353,6 @@ form {
     .benefit {
         margin: 15px;
     }
-    .description-item {
-        font-size: 12pt;
-    }
     .price {
         width: 90%;
         margin: 0 auto;
@@ -407,5 +409,5 @@ form {
     }
     .item {
         margin: 0 50px 0 50px;
-    }    
+    }
 }

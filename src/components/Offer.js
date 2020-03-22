@@ -91,7 +91,8 @@ function Offer() {
                         label="E-mail" variant="outlined" />
                 </form>
                 <div className='btn-quiz'>
-                    <Button style={{ marginTop: 15, height: 50, width: '100%', color: 'white', backgroundColor: '#101D62', textTransform: 'initial' }} variant="contained">
+                    <Button onClick={() => window.open('https://docs.google.com/forms/d/1K7QqKlBp-mNwKU00_wnoTnEq_3KhV9bFjAtjKplHb-w/edit')}
+                        style={{ marginTop: 15, height: 50, width: '100%', color: 'white', backgroundColor: '#101D62', textTransform: 'initial' }} variant="contained">
                         Quero fazer o quiz!
                     </Button>
                 </div>
