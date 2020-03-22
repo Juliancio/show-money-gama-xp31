@@ -338,7 +338,8 @@ form {
         justify-content: space-between;
     }
     .cards {
-        margin-top: 40px;
+        display: block;
+        margin: 0 auto;
     }
     .card {
         height: auto;
@@ -360,7 +361,7 @@ form {
     }
     .message {
         width: 300px;
-        margin-top: 300px;
+        margin-top: 350px;
     }
     .banner {
         display: flex;
@@ -371,6 +372,7 @@ form {
     .banner-img {
         width: 300px;
         margin: 0;
+        flex: 1 1 10rem;
     }
     .nav {
         margin: 5px
@@ -396,5 +398,12 @@ form {
     }
     .container h3 {
         font-size: 20pt;
+    }
+    .time {
+        width: 70px;
+        font-size: 10pt;
+    }
+    .time span {
+        font-size: 25pt;
     }
 }
