@@ -11,6 +11,7 @@ function Offer() {
                 days: Math.floor(difference / (1000 * 60 * 60 * 24)),
                 hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
                 minutes: Math.floor((difference / 1000 / 60) % 60),
+                seconds: Math.floor(((difference / 1000 / 60) * 60) % 60),
             };
         }
 
@@ -67,10 +68,15 @@ function Offer() {
                         <span>{timeLeft.minutes}</span>
                         minutos
                     </div>
+                    <div className="time">
+                        <span>{timeLeft.seconds}</span>
+                        segundos
+                    </div>
                 </div>
 
                 <div className='btn-contrate'>
-                    <Button variant="contained">
+                    <Button onClick={() => window.open('https://pag.ae/7VSnZiaup', '_blank')}
+                        variant="contained">
                         CONTRATE AGORA
                     </Button>
                 </div>

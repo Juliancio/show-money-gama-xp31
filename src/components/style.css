@@ -104,7 +104,7 @@
     font-weight: bold;
 }
 
-.message h1 {
+.message h3 {
     color: #101d61;
     font-size: 35px;
     font-weight: bold;
@@ -342,6 +342,7 @@ form {
     }
     .card {
         height: auto;
+        width: 300px;
     }
     .benefit {
         width: 190px;
@@ -358,24 +359,40 @@ form {
     }
     .message {
         width: 300px;
+        margin-top: 300px;
     }
     .banner {
-        margin-right: 350px;
+        display: flex;
+        width: 100%;
+        justify-content: right;
     }
     .banner-img {
-        width: 100px;
+        width: 300px;
+        margin: 0;
     }
     .nav {
         margin: 5px
     }
     .description h1 {
-        font-size: 20pt;
         margin-bottom: 25px;
+        font-size: 20pt;
     }
     .description p {
         font-size: 12pt;
     }
+    .btn-banner button {
+        width: 250px;
+    }
+    .description {
+        width: 70%;
+        margin: 30px;
+        align-items: center;
+    }
     .hero {
         background-position: left;
+        flex-direction: column;
+    }
+    .container h3 {
+        font-size: 20pt;
     }
 }

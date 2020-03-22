@@ -13,12 +13,12 @@ function Banner() {
                 <p>A Consultoria "Pensando Digital" acelera performance e resultados, trazendo clientes e consequentemente, sucesso dentro do mercado digital para pequenas e médias empresas de todos os segmentos. Confira!
             </p>
                 <div className="btn-banner">
-                    <Button variant="contained">CONTRATE AGORA</Button>
+                    <Button onClick={() => window.open('https://pag.ae/7VSnZiaup', '_blank')} variant="contained">CONTRATE AGORA</Button>
                 </div>
             </div>
-            {/* <div className="banner">
+            <div className="banner">
                 <img src={banner} className="banner-img" alt="Logo" />
-            </div> */}
+            </div>
         </div>
     )
 }

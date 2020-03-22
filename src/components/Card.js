@@ -7,7 +7,7 @@ function Card() {
     return (
         <div className="container">
             <div className="message">
-                <h1>Como ajudaremos o seu negócio?</h1>
+                <h3>Como ajudaremos o seu negócio?</h3>
                 <p>Faremos uma <span>ANÁLISE PERSONALIZADA</span> do seu negócio e te auxiliaremos com:</p>
             </div>
             <div className="cards">
