@@ -352,7 +352,8 @@ form {
         font-size: 12pt;
     }
     .price {
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
     }
     .main-offer {
         display: block;
@@ -365,6 +366,7 @@ form {
         display: flex;
         width: 100%;
         justify-content: right;
+        align-items: flex-end;
     }
     .banner-img {
         width: 300px;
