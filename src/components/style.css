@@ -335,7 +335,7 @@ form {
         display: flex;
         flex-wrap: nowrap;
         overflow-x: auto;
-        margin: 15px 80px 5px 100px;
+        justify-content: ;
     }
     .cards {
         display: block;
@@ -405,4 +405,7 @@ form {
     .time span {
         font-size: 25pt;
     }
+    .item {
+        margin: 0 50px 0 50px;
+    }    
 }
