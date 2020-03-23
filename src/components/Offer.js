@@ -75,7 +75,7 @@ function Offer() {
                 </div>
 
                 <div className='btn-contrate'>
-                    <Button onClick={() => window.open('https://pag.ae/7VSnZiaup', '_blank')}
+                    <Button onClick={() => window.open('https://pag.ae/https://www.sympla.com.br/consultoria-pensando-digital__826707', '_blank')}
                         variant="contained">
                         CONTRATE AGORA
                     </Button>

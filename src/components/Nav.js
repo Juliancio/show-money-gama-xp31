@@ -15,7 +15,7 @@ function Nav() {
             </div>
 
             <div className='btn-contrate'>
-                <Button onClick={() => window.open('https://pag.ae/7VSnZiaup', '_blank')} variant="contained">CONTRATE AGORA</Button>
+                <Button onClick={() => window.open('https://https://www.sympla.com.br/consultoria-pensando-digital__826707.ae/7VSnZiaup', '_blank')} variant="contained">CONTRATE AGORA</Button>
             </div>
         </div>
     )
