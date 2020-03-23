@@ -167,11 +167,9 @@
 .footer {
     background-color: #101d61;
     color: white;
-    height: 50px;
-    display: flex;
     justify-content: right;
     align-items: center;
-    padding: 30px;
+    text-align: right;
 }
 
 .card-p {

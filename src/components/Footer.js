@@ -1,8 +1,7 @@
 import React from 'react';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import FacebookIcon from '@material-ui/icons/Facebook';
-
-
+import Insta from './assets/instagram.svg'; // Tell webpack this JS file uses this image
+import Face from './assets/facebook.svg'; // Tell webpack this JS file uses this image
+import Linked from './assets/linkedin.svg'; // Tell webpack this JS file uses this image
 
 
 
@@ -11,8 +10,9 @@ import './style.css';
 function Footer() {
     return (
         <div className="footer">
-            <InstagramIcon style={{ marginRight: 15 }} />
-            <FacebookIcon />
+            <a href="https://www.linkedin.com/company/consultoria-pensando-digital">            <img src={Linked} alt="Linkedin" /> </a>
+            <a href="https://www.facebook.com/consultoriapensandodigital">              <img src={Face} alt="Facebook" /></a>
+            <a href="https://www.instagram.com/pensando_digital/">                <img src={Insta} alt="Instagram" /></a>
         </div>
     )
 }
