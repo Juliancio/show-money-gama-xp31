@@ -84,18 +84,24 @@ function Offer() {
             <div className="quiz">
                 <p>Ahh, mas eu sei tudo sobre mercado digital Não preciso disso!</p>
                 <p>Será que sabe mesmo? Faça o nosso quiz e teste seus conhecimentos!</p>
-                <form>
-                    <TextField style={{ margin: 15, width: '100%' }} id="name"
-                        label="Name" variant="outlined" />
-                    <TextField style={{ width: '100%' }} id="email"
-                        label="E-mail" variant="outlined" />
-                </form>
-                <div className='btn-quiz'>
-                    <Button onClick={() => window.open('https://docs.google.com/forms/d/1K7QqKlBp-mNwKU00_wnoTnEq_3KhV9bFjAtjKplHb-w/edit')}
-                        style={{ marginTop: 15, height: 50, width: '100%', color: 'white', backgroundColor: '#101D62', textTransform: 'initial' }} variant="contained">
+                <form method="POST" action="https://smtl.gama.academy/leads/4a6b3a40-5ffc-11ea-92b8-cb0262e26cca">
+                    <TextField style={{ margin: 15, width: '100%' }} variant="outlined"
+                        name="name" placeholder="Digite seu nome completo"
+                        type="text" pattern="^\D{2,}\s[\D\s]{2,}$"
+                        title="Digite seu nome completo" required />
+                    <TextField style={{ width: '100%' }} variant="outlined" name="email"
+                        type="email" title="Digite um email válido"
+                        placeholder="Digite um email válido"
+                        required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" />
+                    <input name="redirectTo" type="hidden"
+                        value="https://docs.google.com/forms/d/1K7QqKlBp-mNwKU00_wnoTnEq_3KhV9bFjAtjKplHb-w/edit" />
+
+                    <Button type="submit"
+                        style={{ marginTop: 15, height: 50, width: '100%', color: 'white', backgroundColor: '#101D62', textTransform: 'initial' }}
+                        variant="contained">
                         Quero fazer o quiz!
                     </Button>
-                </div>
+                </form>
             </div>
         </div>
     )
