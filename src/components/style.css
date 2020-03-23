@@ -9,11 +9,12 @@
 .logo {
     display: flex;
     flex: 1 1 5rem;
+    width: 144px;
+    height: 44px;
 }
 
 
-.logo img {
-}
+
 
 .btn-contrate button {
     background-color: #FFDD36;
@@ -43,7 +44,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 30em;
     color: white;
     display: flex;
     align-items: center;
