@@ -82,7 +82,7 @@
 }
 
 .hero h1 {
-    font-size: 30pt;
+    font-size: 30px;
     font-weight: 400;
 }
 
@@ -116,7 +116,7 @@
 }
 
 .hero p {
-    font-size: 15pt;
+    font-size: 15px;
 }
 
 .brand {
@@ -332,7 +332,7 @@ form {
         width: 10em;
     }
     .main h3 {
-        font-size: 17pt;
+        font-size: 17px;
     }
     .benefits {
         display: flex;
@@ -377,10 +377,10 @@ form {
     }
     .description h1 {
         margin-bottom: 25px;
-        font-size: 20pt;
+        font-size: 20px;
     }
     .description p {
-        font-size: 12pt;
+        font-size: 12px;
     }
     .btn-banner button {
         width: 250px;
@@ -395,14 +395,14 @@ form {
         flex-direction: column;
     }
     .container h3 {
-        font-size: 20pt;
+        font-size: 20px;
     }
     .time {
         width: 70px;
-        font-size: 10pt;
+        font-size: 10px;
     }
     .time span {
-        font-size: 25pt;
+        font-size: 25px;
     }
     .item {
         margin: 0 50px 0 50px;
