@@ -11,8 +11,8 @@
     flex: 1 1 5rem;
 }
 
+
 .logo img {
-    width: 150px;
 }
 
 .btn-contrate button {
@@ -58,7 +58,7 @@
 
 .card {
     background-color: #101D62;
-    width: 500px;
+    width: 48%;
     height: 250px;
     padding: 1.5rem;
     color: white;
@@ -94,8 +94,8 @@
 }
 
 .message {
-    width: 410px;
-    height: 200px;
+    width: 20em;
+    height: 13em;
     text-align: left;
     margin-top: 55px;
 }
@@ -126,8 +126,6 @@
 .description {
     display: flex;
     flex-direction: column;
-    width: 400px;
-    height: 500px;
     flex-wrap: wrap;
     margin: 25px;
     margin-left: 100px;
@@ -297,7 +295,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 300px;
+    margin-top: 30px;
     margin-bottom: 100px;
 }
 
@@ -325,6 +323,14 @@ form {
 /* mobile */
 
 @media only screen and (max-width: 600px) {
+
+    .container {
+        display: nowrap;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+
     .nav button {
         display: none;
     }
@@ -369,9 +375,11 @@ form {
     }
     .banner-img {
         width: 300px;
-        margin: 0;
-        flex: 1 1 10rem;
+        margin-top: 0px;
+        flex: 1 1 8rem;
     }
+
+
     .nav {
         margin: 5px
     }
@@ -393,6 +401,7 @@ form {
     .hero {
         background-position: left;
         flex-direction: column;
+        margin-bottom: -200px;
     }
     .container h3 {
         font-size: 20px;
