@@ -228,7 +228,7 @@
 
 .price {
     width: 380px;
-    height: 420px;
+    height: 500px;
     background: #101D62;
     border-radius: 7px;
     color: #FFDD36;
@@ -245,13 +245,40 @@
 .value {
     background: #FFFFFF;
     border-radius: 7px;
-    height: 60px;
+    height: 150px;
     color: #101D62;
     width: 250px;
     font-weight: bold;
     font-size: 35px;
     line-height: 57px;
     text-align: center;
+}
+
+.value-menor {
+
+    font-size: 20px;
+    text-decoration: line-through;
+
+}
+
+.sus-text {
+
+    color: #101D62;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 2.5em;
+line-height: 57px;
+text-align: center;
+
+}
+
+.antesrodape {
+    background-color: #FFDD36;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+
 }
 
 .price p {
@@ -328,6 +355,17 @@ form {
         display: nowrap;
         flex-direction: column;
         margin: 0 auto;
+    }
+
+    .sus-text {
+
+        color: #101D62;
+    
+
+    font-size: 1.5em;
+    line-height: 30px;
+
+    
     }
 
 

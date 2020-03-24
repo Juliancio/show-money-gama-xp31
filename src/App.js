@@ -6,6 +6,7 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Benefits from './components/Benefits';
 import Offer from './components/Offer';
+import PreFooter from './components/PreFooter';
 import './App.css';
 
 
@@ -17,6 +18,7 @@ function App() {
       <Card />
       <Benefits />
       <Offer />
+      <PreFooter />
       <Footer />
     </div>
   );

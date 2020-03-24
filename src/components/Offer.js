@@ -50,7 +50,9 @@ function Offer() {
         <div className="main-offer">
             <div className="price">
                 <h3>Tudo isso por apenas:</h3>
+                
                 <div className="value">
+                    <span className="value-menor">R$ 150,00 </span><br />
                     R$ 39,90
                 </div>
                 <p>Fique atento! Esse valor é por <span>tempo limitado!</span></p>
@@ -103,7 +105,10 @@ function Offer() {
                     </Button>
                 </form>
             </div>
+            
         </div>
+
+        
     )
 }
 
